@@ -14,11 +14,17 @@ h1 {
 }
 
 #flag {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 89px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 89px;
     height: 30px;
 }
+
+    #flag:hover {
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #8DBEB9;
+    }
 
 #side-menu {
     background-color: #514B46;
