@@ -20,21 +20,26 @@ h1 {
     height: 30px;
 }
 
-    #flag:hover {
-        cursor: pointer;
-        border-radius: 3px;
-        background-color: #8DBEB9;
-    }
+#flag:hover {
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #8DBEB9;
+}
+
+#cafe {
+    float: right; 
+    margin-right: 200px;
+}
 
 #side-menu {
     background-color: #514B46;
-    height: 100%; /* Full-height: remove this if you want "auto" height */
+    height: 100%;
     width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    position: fixed;
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden;
     padding-top: 5px;
 }
 
@@ -72,5 +77,16 @@ h1 {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    margin-left: 160px;
+    bottom: 0;
+    border-top: solid;
+    text-align: center;
+    width: auto;
 }
 
