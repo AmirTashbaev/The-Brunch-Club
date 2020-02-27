@@ -69,9 +69,14 @@ h1 {
     padding-top: 20px;
 }
 
+.p2 {
+    margin-top: 50px;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
+        width: 130px;
     }
 
     .sidenav a {
