@@ -33,7 +33,6 @@ h2 {
 
 .menu-column {
     margin-left: 40px;
-    flex: 50%;
 }
 
 .menu-type {
@@ -47,6 +46,24 @@ h2 {
     margin-bottom: 13px;
     margin-left: 0px;
 }
+
+.menu-download {
+    margin-left: 40px;
+    border: none;
+    background-color: #3B7852;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+    .menu-download:hover {
+        background-color: #336746;
+    }
+
+    .menu-download a {
+        text-decoration: none;
+        color: white;
+    }
 
 #flag {
     margin-top: 5px;
@@ -62,7 +79,8 @@ h2 {
 }
 
 #cafe {
-    float: right; 
+    float: right;
+    margin-top: 0;
     margin-right: 200px;
 }
 
