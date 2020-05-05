@@ -36,6 +36,9 @@ h2 {
     display: flex;
 }
 
+ul {
+    padding-left: 15px;
+}
 .menu-column {
     margin-left: 30px;
 }
@@ -52,8 +55,9 @@ h2 {
     margin-left: 0px;
 }
 
-* {
-    outline: 1px solid red;
+.item-type {
+    list-style-type: none;
+
 }
 
 .menu-download {
