@@ -193,11 +193,19 @@ ul {
     .main {
         margin-left: 110px;
         overflow: auto;
+        padding-left: 0px;
     }
 
     #side-menu {
         width: 110px;
         overflow-y: auto;
+    }
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-column {
+        margin-left: 15px;
     }
 
     .footer {
@@ -218,9 +226,6 @@ ul {
         margin-bottom: 50px;
     }
 
-    .menu {
-        flex-direction: column;
-    }
     .main h1 {
         padding-top: 0px;
     }
