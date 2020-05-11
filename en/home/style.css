@@ -115,6 +115,23 @@ ul {
     padding-right: 7px;
 }
 
+#facebook {
+    height: 48px;
+}
+#instagram {
+    height: 43px;
+}
+
+#tripadvisor {
+    height: 42px;
+}
+
+.social-icon {
+    width: auto;
+    background-color: none;
+    margin-right: 7px;
+}
+
 #side-menu {
     background-color: #514B46;
     height: 100%;
