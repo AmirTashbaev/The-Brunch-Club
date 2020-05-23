@@ -51,13 +51,14 @@ h1 {
     .main hr {
         margin-top: 5px;
         margin-left: 0;
+        margin-bottom: 20px;
         border-top: 3px solid #514B46;
         border-bottom: none;
     }
 
 .footer hr {
     border-top: 1px solid #514B46;
-    border-bottom-color: #8DBEB9;
+    border-bottom-color: #8dbeb985;
     left: 0;
     margin-left: 0;
     bottom: 0;
@@ -134,12 +135,40 @@ ul {
     cursor: pointer;
     padding: 0px 1px 0px 1px;
     border-radius: 3px;
-    background-color: #8DBEB9;
+    background-color: #8dbeb985;
 }
 
-#cafe {
-    float: right;
+.backgroundbox {
+    display: grid;
+    width: 100%;
+}
+
+.backgroundimg {
+    position: relative;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 40%;
+    max-width: 500px;
+    max-height:  250px;
+    height: auto;
+    border-radius: 8px;
     margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.drinksimg {
+    position: relative;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+    max-width: auto;
+    max-height: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .contact-icon {
@@ -193,7 +222,7 @@ ul {
 }
 
 .main {
-    background-color: #8DBEB9;
+    background-color: #8dbeb985;
     display: block;
     position: absolute;
     width: -webkit-fill-available;
@@ -201,7 +230,7 @@ ul {
     z-index: 1;
     top: 0; /* Stay at the top */
     margin-left: 160px; /* Same as the width of the sidebar */
-    margin-bottom: 59px;
+    margin-bottom: 60.4px;
     padding: 20px 10px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -213,7 +242,7 @@ ul {
 
 .footer {
     position: absolute;
-    background-color: #8DBEB9;
+    background-color: #8dbeb985;
     z-index: 1;
     bottom: 0;
     left: 0;
